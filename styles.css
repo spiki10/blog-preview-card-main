@@ -1,0 +1,91 @@
+/* === Reset and Base === */
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    border-radius: 20px;
+    padding: 24px; 
+    border: solid 2px hsl(0, 0%, 7%);
+    box-shadow: 10px 10px hsl(0, 0%, 7%);
+}
+
+.container > img {
+    height: 200px;
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-weight: 950;
+    font-size: 24px;
+    color: hsl(0, 0%, 7%);
+    margin: 0;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.bold {
+    color: hsl(0, 0%, 7%);
+    font-weight: 950;
+}
+
+.gray {
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.box {
+    display: inline-flex;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;        
+    padding: 4px 12px;            
+    width: fit-content;
+    height: fit-content;
+}
+
+.box p {
+    margin: 0;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.author > img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.author > p {
+    margin-left: 12px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 25px;
+}
